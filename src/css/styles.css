@@ -1,0 +1,117 @@
+.header{
+    font-family: fantasy; font-size: x-large; font-weight: lighter;
+    color:#2d9ae2;
+    font-style: oblique;
+    background: linear-gradient(to right, #000, #0111, #fff);
+    padding: 1rem;
+}
+.header::first-letter{
+    color: aquamarine;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+nav {
+    list-style-type: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: stretch;
+    background: linear-gradient(to right, #000, #0111, #fff);
+    flex-direction: row;
+    border-radius: 5px;
+    margin: 0 1rem;
+    margin-left: 0;
+    border: 0;
+}
+nav ul li{
+    margin: 0 1rem;
+    padding: 0;
+}
+
+nav ul li a:active{
+    background-color: yellow;
+}
+
+h2{
+    color: hwb(211 0 25);
+    font-style:normal;
+    font-family: cursive;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: light;
+    font-style: normal;
+    size: 10px;
+
+}
+p.price{
+    color:forestgreen;
+}
+
+.purchase{
+    color: #010;
+    background-color: #30f13d;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    padding: 0;
+    border: 10px solid rgb(201, 201, 197);
+    border-radius: 4px;
+}
+
+section{
+    background-clip: border-box;
+    font-size: small;
+    display:flex;
+    box-sizing: content-box;
+    width: fit-content;
+    height: fit-content;
+    align-content: space-evenly;
+}
+
+.product{
+    border: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 8px 16px #fff;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+a:link{
+    text-decoration: none;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:visited{
+    color:rgb(0, 183, 255);
+    font-family:Arial, Helvetica, sans-serif;
+}
+a:hover{
+    background-color: silver;
+    color: blue;
+}
+
+em{
+    font-style: oblique;
+}
+strong{
+    font-weight:bolder;
+
+}
+
+footer{
+
+    text-align: center;
+    color: silver;
+    background: linear-gradient(to left,  #000, #0111, #fff);
+}
